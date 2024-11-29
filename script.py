@@ -1,6 +1,6 @@
-import cv2
-import numpy as np
-from scipy.signal import wiener
+import cv2 # type: ignore
+import numpy as np # type: ignore
+from scipy.signal import wiener # type: ignore
 
 # 2D konvolüsyon işlemini yapan fonksiyon
 def apply_2d_convolution(image, kernel):
